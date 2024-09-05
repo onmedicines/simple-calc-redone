@@ -34,10 +34,16 @@
 }
 
 #prev {
+    width: 100%;
     height: 40%;
     font-size: 2rem;
 }
+hr {
+    width: 95%;
+    align-self: center;
+}
 #current {
+    width: 100%;
     flex-grow: 1;
     font-size: 3rem;
 }
