@@ -25,6 +25,11 @@ class Calculator {
   }
 
   appendNumber(numberText) {
+    if (numberText === ".") {
+      if (this._currentOperand.includes(".")) return;
+      if (this._currentOperand === "") this._currentOperand += 0;
+    }
+
     this._currentOperand += numberText;
     this.updateDisplay();
   }
