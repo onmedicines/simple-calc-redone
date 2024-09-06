@@ -69,10 +69,6 @@ hr {
     grid-column: 2/4;
 }
 
-#zero {
-    grid-column: 1/3;
-}
-
 #equals {
     grid-column: 3/5;
 }
