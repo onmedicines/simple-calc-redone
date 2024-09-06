@@ -30,7 +30,8 @@
 
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+
+    text-align: right;
 }
 
 #prev {
@@ -64,7 +65,7 @@ hr {
     place-items: center;
 }
 
-#clear {
+#delete {
     grid-column: 2/4;
 }
 
