@@ -35,7 +35,7 @@
     width: 100vw;
 
     background-color: var(--container-bg);
-    font-size: 2.5rem;
+    font-size: calc(1.25rem + var(--screen-size-factor));
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     display: grid;
@@ -86,7 +86,7 @@
 #prev {
     width: 100%;
     height: 40%;
-    font-size: 2rem;
+    font-size: calc(1.15rem + var(--screen-size-factor));
 }
 hr {
     color: black;
@@ -94,9 +94,12 @@ hr {
     align-self: center;
 }
 #current {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
     width: 100%;
     flex-grow: 1;
-    font-size: 3rem;
+    font-size: calc(2.5rem + var(--screen-size-factor));
 }
 
 #numpad {
